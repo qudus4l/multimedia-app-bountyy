@@ -227,7 +227,6 @@ export default function App() {
           </div>
 
 
-          // File list
           <div style={styles.fileContainer}>
             <div style={{ width: "100%", padding: 10 }}>
               {sortFiles(filteredFiles).map((file) => (
